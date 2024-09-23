@@ -1,0 +1,17 @@
+.blockDiv{
+    height: 50px;
+    background-color: aqua;
+}
+div{
+    height: 100px;
+    background-color: blue;
+}
+#iddiv{
+    background-color: aqua;
+}
+#iddiv.blockDiv{
+    color: red;
+}
+div#iddiv.blockDiv{
+    color: blue;
+}
